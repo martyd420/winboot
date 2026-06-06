@@ -18,7 +18,7 @@ sudo ./winboot.sh -i <path_to_iso> -o <target_device> -m <uefi|legacy>
 
 **Examples:**
 ```bash
-sudo ./winboot.sh -i Win11_x64.iso -o /dev/sdd -m uefi
-sudo ./winboot.sh -i Win10.iso -o /dev/sdd -m legacy
+sudo ./winboot.sh -i Win11_x64.iso -o /dev/sdx -m uefi
+sudo ./winboot.sh -i Win10.iso -o /dev/sdx -m legacy
 ```
 
